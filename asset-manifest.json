@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "https://piyushdatta.com/personal_website/static/css/main.28cd2cc2.css",
+    "main.js": "https://piyushdatta.com/personal_website/static/js/main.67f87e10.js",
+    "static/js/20.f1eb4aaf.chunk.js": "https://piyushdatta.com/personal_website/static/js/20.f1eb4aaf.chunk.js",
+    "static/js/562.167a6b28.chunk.js": "https://piyushdatta.com/personal_website/static/js/562.167a6b28.chunk.js",
+    "static/js/922.48a2fd2c.chunk.js": "https://piyushdatta.com/personal_website/static/js/922.48a2fd2c.chunk.js",
+    "static/js/161.539fe4f1.chunk.js": "https://piyushdatta.com/personal_website/static/js/161.539fe4f1.chunk.js",
+    "static/js/260.890ef152.chunk.js": "https://piyushdatta.com/personal_website/static/js/260.890ef152.chunk.js",
+    "static/js/209.f9dd7f9a.chunk.js": "https://piyushdatta.com/personal_website/static/js/209.f9dd7f9a.chunk.js",
+    "static/js/625.aa610cf6.chunk.js": "https://piyushdatta.com/personal_website/static/js/625.aa610cf6.chunk.js",
+    "index.html": "https://piyushdatta.com/personal_website/index.html",
+    "static/media/about.md": "https://piyushdatta.com/personal_website/static/media/about.9a9a4c5142ff48138620.md",
+    "main.28cd2cc2.css.map": "https://piyushdatta.com/personal_website/static/css/main.28cd2cc2.css.map",
+    "main.67f87e10.js.map": "https://piyushdatta.com/personal_website/static/js/main.67f87e10.js.map",
+    "20.f1eb4aaf.chunk.js.map": "https://piyushdatta.com/personal_website/static/js/20.f1eb4aaf.chunk.js.map",
+    "562.167a6b28.chunk.js.map": "https://piyushdatta.com/personal_website/static/js/562.167a6b28.chunk.js.map",
+    "922.48a2fd2c.chunk.js.map": "https://piyushdatta.com/personal_website/static/js/922.48a2fd2c.chunk.js.map",
+    "161.539fe4f1.chunk.js.map": "https://piyushdatta.com/personal_website/static/js/161.539fe4f1.chunk.js.map",
+    "260.890ef152.chunk.js.map": "https://piyushdatta.com/personal_website/static/js/260.890ef152.chunk.js.map",
+    "209.f9dd7f9a.chunk.js.map": "https://piyushdatta.com/personal_website/static/js/209.f9dd7f9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28cd2cc2.css",
+    "static/js/main.67f87e10.js"
+  ]
+}
