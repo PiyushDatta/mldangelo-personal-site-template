@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://mldangelo.com/",
+  "homepage": "http://piyushdatta.github.io/personal_website",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://github.com/PiyushDatta/personal_website"
   },
   "engines": {
     "node": ">=16.x"
@@ -14,9 +14,14 @@
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
     "build": "rimraf ./build && react-scripts build",
     "lint": "eslint \"**/*.js\"",
+    "lint_fix": "eslint --fix .",
     "predeploy": "npm run build && react-snap",
+    "before_commit": "npm run format && npm run lint_fix && npm run build && react-snap",
     "start": "react-scripts start",
-    "test": "npx jest"
+    "lint_start": "eslint --fix . && react-scripts start",
+    "test": "npx jest",
+    "format": "prettier --write .",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
@@ -25,6 +30,7 @@
     "@fortawesome/react-fontawesome": "0.2.0",
     "dayjs": "^1.11.10",
     "markdown-to-jsx": "^7.4.0",
+    "prettier": "^3.1.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-burger-menu": "^3.0.9",

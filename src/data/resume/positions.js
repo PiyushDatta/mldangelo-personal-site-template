@@ -1,22 +1,9 @@
-/**
- * @typedef {Object} Position
- * Conforms to https://jsonresume.org/schema/
- *
- * @property {string} name - Name of the company
- * @property {string} position - Position title
- * @property {string} url - Company website
- * @property {string} startDate - Start date of the position in YYYY-MM-DD format
- * @property {string|undefined} endDate - End date of the position in YYYY-MM-DD format.
- * If undefined, the position is still active.
- * @property {string|undefined} summary - html/markdown summary of the position
- * @property {string[]} highlights - plain text highlights of the position (bulleted list)
- */
-const work = [
+const positions = [
   {
-    name: 'Amazon Web Services',
+    company: 'Amazon Web Services',
     position: 'Software Development Engineer II',
-    url: 'https://aws.amazon.com/',
-    startDate: 'June 2020',
+    link: 'https://aws.amazon.com/',
+    daterange: 'June 2020 – Present',
     highlights: [
       'Backend development work with AWS Aurora Database Engine team using C/C++',
       'Core engineer on new Limitless product for Aurora which was presented and explained at 2024 re:Invent (https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-aurora-limitless-database/)',
@@ -26,11 +13,10 @@ const work = [
     ],
   },
   {
-    name: 'Givex',
+    company: 'Givex',
     position: 'Software Developer',
-    url: 'https://www.givex.com/',
-    startDate: 'February 2019',
-    endDate: 'January 2020',
+    link: 'https://www.givex.com/',
+    daterange: 'February 2019 - January 2020',
     highlights: [
       'Backend development work with Python, JavaScript, C/C++, PostgreSQL, and Unix',
       'Implemented gift card, point of sale and other transaction-based solutions for companies such as Nike, McDonalds, Marriott International, and many more',
@@ -40,4 +26,4 @@ const work = [
   },
 ];
 
-export default work;
+export default positions;
